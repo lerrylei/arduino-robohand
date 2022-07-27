@@ -6,7 +6,7 @@ Control a servo motor hand with the power of a glove and DIY flex sensors!
 ## About
 This project uses budget items and DIY parts to create a fully functional robotic hand that can be controlled by a glove with flex sensors. It is an introduction project to the world of biomechanical engineering and design. Starting from the basic building blocks of foam and string, you will explore how physical mechanics are combined with electronic parts to form an attention grabbing project.
 
-For a more basic overview of the project, check out the [project presentation](https://github.com/lerrylei/roboHand/blob/main/Project%20Presentation.pdf)
+For a more basic overview of the project, check out the [project presentation](Project%20Presentation.pdf)
 
 [![Glove Controlled Robotic Hand Demo](https://i.imgur.com/FJCvUu7.png)](https://youtu.be/q-6LHwicius "Glove Controlled Robotic Hand Demo - Click to Watch!")
 
@@ -53,7 +53,7 @@ Next construct the palm and the arm base. I don't have much documentation of thi
   </p>
 </details>
 
-Guide the strings through the servo motor arm and hot glue it down when it is taut. Mount the Arduino Uno onto the bottom of the arm and attach a breadboard to the back. Organize wires with rubber bands/zip ties and connect all servo motors to the power rails on the breadboard. Lastly, connect the signal lines on the servo motors to the digital pins on the Arduino board. Use 4AA battery pack to power ONLY the servo motors. Wiring and construction of the hand is done for now. Arduino Uno can be programmed to control the servo motors now. For a clear visual explnation of the wiring, refer to the [provided circuit diagram](https://github.com/lerrylei/roboHand/blob/main/Circuit%20Diagram.png).
+Guide the strings through the servo motor arm and hot glue it down when it is taut. Mount the Arduino Uno onto the bottom of the arm and attach a breadboard to the back. Organize wires with rubber bands/zip ties and connect all servo motors to the power rails on the breadboard. Lastly, connect the signal lines on the servo motors to the digital pins on the Arduino board. Use 4AA battery pack to power ONLY the servo motors. Wiring and construction of the hand is done for now. Arduino Uno can be programmed to control the servo motors now. For a clear visual explnation of the wiring, refer to the [provided circuit diagram](Circuit%20Diagram.png).
 
 <p float="left">
   <img src="https://hackster.imgix.net/uploads/attachments/1310379/img_8334_73jYjDlUvm.JPG?auto=compress%2Cformat&w=680&h=510&fit=max" width=32% height=32%>
@@ -84,7 +84,7 @@ It's important to stay organized, as there are a lot of jumper wires. There is a
   
 ## Code
 
-In the [provided code](https://github.com/lerrylei/roboHand/blob/main/glove_controlled_robotic_hand.ino), its important to realize that parameters will be different depending on each flex sensor and servo motor. In order to organize values clearly, I included the `flexTest()` function to test values for the flex sensors.
+In the [provided code](glove_controlled_robotic_hand.ino), its important to realize that parameters will be different depending on each flex sensor and servo motor. In order to organize values clearly, I included the `flexTest()` function to test values for the flex sensors.
 
 Serial Monitor output of `flexTest()` - Returns live feedback of the flex sensors
 
